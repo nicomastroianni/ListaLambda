@@ -9,8 +9,8 @@ public class pruebaMain {
 		int contenedor = 0;
 		elementoConLista unElemento = new elementoConLista();	
 		
-		for(int i=0;i<unElemento.getListaDeFunciones2().length;i++) {
-			interfazPrueba unMetodo=  unElemento.getListaDeFunciones2()[i];
+		for(int i=0;i<unElemento.getListaDeFunciones().length;i++) {
+			interfazPrueba unMetodo=  unElemento.getListaDeFunciones()[i];
 			contenedor += unMetodo.funcionAuxiliar(a);
 		}
 		System.out.println(contenedor);
